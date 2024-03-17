@@ -12,6 +12,20 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <valorant.client.version>1.0.13</valorant.client.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.rr-world</groupId>
+            <artifactId>valorant-api-client</artifactId>
+            <version>${valorant.client.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.cdimascio</groupId>
+            <artifactId>dotenv-java</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
